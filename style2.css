@@ -5,7 +5,8 @@ body{
     margin-left: 35%;
     align-items: center;
     height: 100vh;
-   background: url("https://img.xatblog.net/image/w3lXd00P2A.jpg");
+    background: url("https://img.xatblog.net/image/w3lXd00P2A.jpg");
+     background-size: contain;
     font-family: 'Raleway', sans-serif;
     font-weight: bold;
     z-index: 1300;
@@ -15,7 +16,7 @@ a{
     display: inline-block;
     padding: 25px 30px;
     margin: 40px 0;
-    color: #ffffff;
+    color: blue;
     text-decoration: none;
     text-transform: uppercase;
     transition: 0.5s;
@@ -26,7 +27,7 @@ a{
 }
 a:hover{
     background: #d6abab;
-    color: white;
+    color: blue;
     box-shadow: 0 0 5px #d49d9d,
                 0 0 25px #d49d9d,
                 0 0 50px #d49d9d,
